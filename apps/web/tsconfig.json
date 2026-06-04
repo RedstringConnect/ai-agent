@@ -3,8 +3,12 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"],
-      "@workspace/ui/*": ["../../packages/ui/src/*"]
+      "@workspace/ui/*": ["../../packages/ui/src/*"],
+      "@workspace/shared/*": ["../../packages/shared/src/*"],
+      "backend": ["../../apps/backend/src"]
     },
+    "declaration": false,
+    "declarationMap": false,
     "plugins": [
       {
         "name": "next"

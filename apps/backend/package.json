@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --port 8788",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "seed": "wrangler d1 execute kira-db --file=./drizzle/seed.sql",
+    "lint": "eslint",
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@hono/trpc-server": "latest",
+    "@trpc/server": "latest",
+    "@workspace/shared": "workspace:*",
+    "better-auth": "latest",
+    "drizzle-orm": "latest",
+    "hono": "latest",
+    "kysely": "^0.28.5",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260601.1",
+    "@workspace/eslint-config": "workspace:^",
+    "@workspace/typescript-config": "workspace:*",
+    "drizzle-kit": "latest",
+    "eslint": "latest",
+    "typescript": "latest",
+    "vitest": "^4.1.7",
+    "wrangler": "^4.4.0"
+  }
+}

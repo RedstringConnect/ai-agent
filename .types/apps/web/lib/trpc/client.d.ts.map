@@ -1,0 +1,1 @@
+{"version":3,"file":"client.d.ts","sourceRoot":"","sources":["../../../../../apps/web/lib/trpc/client.ts"],"names":[],"mappings":"AAAA,OAAO,EAAmB,KAAK,eAAe,EAAE,MAAM,mBAAmB,CAAA;AACzE,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,SAAS,CAAA;AAExC,eAAO,MAAM,IAAI,EAAE,eAAe,CAAC,SAAS,CAAgC,CAAA"}

@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1780181744167,
+      "tag": "0000_needy_red_hulk",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1780183457504,
+      "tag": "0001_great_secret_warriors",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1780318801903,
+      "tag": "0002_lethal_eternals",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1780420849221,
+      "tag": "0003_fixed_tusk",
+      "breakpoints": true
+    }
+  ]
+}
